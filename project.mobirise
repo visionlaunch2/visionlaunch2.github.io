@@ -3,7 +3,7 @@
     "name": "First Copy Website",
     "currentPage": "index.html",
     "versionFirst": "4.0.14",
-    "uniqCompNum": 51,
+    "uniqCompNum": 52,
     "versionPublish": "4.2.4",
     "theme": {
       "name": "mobirise4",
@@ -868,14 +868,14 @@
           "_params": {
             "paddingTop": 0,
             "paddingBottom": 0,
-            "postToLoad": 3,
-            "facebook": "https://www.facebook.com/Custom_Brands_-744208305762350/",
+            "postToLoad": "3",
+            "facebook": "https://www.facebook.com/firstcopyshoe/",
             "twitter": "https://twitter.com/Custom_Shop_",
-            "google": "https://plus.google.com/u/1/101642511151511296313",
+            "google": "https://www.instagram.com/custom_brands_/",
             "youtube": "https://www.youtube.com/channel/UCo2KZ35IzIWgqaUziqT59Ww",
-            "bgColorRadio": false,
-            "bgColor": "#fff",
-            "bgImageRadio": true,
+            "bgColorRadio": true,
+            "bgColor": "#232323",
+            "bgImageRadio": false,
             "bgImage": "@PROJECT_PATH@/assets/images/mbr-1626x1080.jpg",
             "overlay": true,
             "overlayColor": "#7e9b9f",
@@ -887,6 +887,33 @@
           ],
           "_name": "feed",
           "_anchor": "feed-1b"
+        },
+        {
+          "_params": {
+            "paddingTop": 0,
+            "paddingBottom": 0,
+            "socialFacebook": true,
+            "postsNumber": 5,
+            "socialGoogle": false,
+            "socialDisqus": false,
+            "shortName": "",
+            "bgColorRadio": true,
+            "bgColor": "#232323",
+            "bgImageRadio": false,
+            "bgImage": "@ADDONS_PATH@/facebook-comments/facebook-comments-block/assets/comments_bg.jpg",
+            "overlay": true,
+            "overlayColor": "#7e9b9f",
+            "overlayOpacity": 0.6
+          },
+          "innerText": "<div class=\"facebookPlaceholder\" data-numposts=\"\"><h2>FACEBOOK COMMENTS WILL BE SHOWN ONLY WHEN YOUR SITE IS ONLINE</h2> <img src=\"@PROJECT_PATH@/assets/images/facebook-comments.jpg\"></div>",
+          "innerTextGoogle": "<div class=\"googlePlaceholder\" data-numposts=\"\"><h2>GOOGLE COMMENTS WILL BE SHOWN ONLY WHEN YOUR SITE IS ONLINE</h2> <img src=\"@ADDONS_PATH@/facebook-comments/facebook-comments-block/assets/google-comments.jpg\"></div>",
+          "innerTextDisqus": "<div class=\"disqusPlaceholder\" data-numposts=\"\"><h2>DISQUS COMMENTS WILL BE SHOWN ONLY WHEN YOUR SITE IS ONLINE</h2> <img src=\"@ADDONS_PATH@/facebook-comments/facebook-comments-block/assets/disqus-comments.jpg\"></div>",
+          "alias": "facebook-comments",
+          "_tags": [
+            "Extension"
+          ],
+          "_name": "facebook-comments-block",
+          "_anchor": "facebook-comments-block-1f"
         },
         {
           "_styles": {
